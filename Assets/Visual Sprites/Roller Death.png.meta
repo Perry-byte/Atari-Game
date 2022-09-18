@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 37c28a4f471ec064abd92658ea6d1586
+guid: 5041563fbfd9a7d42b9002536754f074
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Roller (PacStudent) - 2 Directions_0
+      name: Roller Death_0
       rect:
         serializedVersion: 2
         x: 24
@@ -120,14 +120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77863192ca0e5554285f1a4c166a53e2
-      internalID: -931663548
+      spriteID: 72c2227dcc6d96b448d6218044c5a5bd
+      internalID: -436520249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Roller (PacStudent) - 2 Directions_1
+      name: Roller Death_1
       rect:
         serializedVersion: 2
         x: 152
@@ -141,8 +141,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee62df3d7aa2d3240be995df68384a11
-      internalID: 2001581423
+      spriteID: edf1246cfd4ad81418ac36d89161eee7
+      internalID: -759613459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roller Death_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 12
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2a0aa3408efba45844e7c3ae76b3c0
+      internalID: -905662516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Roller Death_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 12
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993a6479ba38f674894315541fa8c901
+      internalID: 1330532039
       vertices: []
       indices: 
       edges: []
@@ -150,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8d4f30d00c22fd44eb53565a1ec95bc5
+    spriteID: 0ae2970ead9031d4cb046bf9f35fdfd2
     internalID: 0
     vertices: []
     indices: 
@@ -158,8 +200,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Roller (PacStudent) - 2 Directions_1: 2001581423
-      Roller (PacStudent) - 2 Directions_0: -931663548
+      Roller Death_3: 1330532039
+      Roller Death_2: -905662516
+      Roller Death_0: -436520249
+      Roller Death_1: -759613459
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
