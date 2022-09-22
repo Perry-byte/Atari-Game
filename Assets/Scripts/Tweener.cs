@@ -38,12 +38,11 @@ public class Tweener : MonoBehaviour
         {
             if (Vector3.Distance(activeTween.Target.position, activeTween.EndPos) > 0.1f)
             {
-                Debug.Log("3");
                 activeTween.Target.position = Vector3.Lerp(activeTween.StartPos, activeTween.EndPos, cubic((Time.time - activeTween.StartTime) / activeTween.Duration));
             }
             else
             {
-                Debug.Log("2");
+                Debug.Log("5");
                 activeTween.Target.position = activeTween.EndPos;
                 activeTween = null;
             }
@@ -71,6 +70,17 @@ public class Tweener : MonoBehaviour
     float cubic(float num)
     {
         return num * num * num;
+    }
+
+    public bool tweenStatus()
+    {
+        if (activeTween == null)
+        {
+            return true;
+        } else
+        {
+            return false;
+        }
     }
 
     /* public bool TweenExists(Transform target)
