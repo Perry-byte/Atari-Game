@@ -7,6 +7,7 @@ public class PacstudentMovement : MonoBehaviour
     [SerializeField]
     private GameObject item;
     private Tweener tweener;
+    private AudioSource music;
     private bool one = false;
     private bool two = false;
     private bool three = false;
@@ -16,6 +17,7 @@ public class PacstudentMovement : MonoBehaviour
     void Start()
     {
         tweener = GetComponent<Tweener>();
+        music.Play();
     }
 
     // Update is called once per frame
