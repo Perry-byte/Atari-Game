@@ -67720,7 +67720,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1733673938}
   - component: {fileID: 1733673937}
-  - component: {fileID: 1733673939}
   - component: {fileID: 1733673940}
   m_Layer: 0
   m_Name: Roller Death
@@ -67796,21 +67795,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!111 &1733673939
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1733673935}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: f7440074bb3a76d42abebea1294b596e, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 1
 --- !u!95 &1733673940
 Animator:
   serializedVersion: 4
